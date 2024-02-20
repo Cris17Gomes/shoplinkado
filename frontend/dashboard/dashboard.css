@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(4, 0, 24);
+
+}
+
+header {
+  background-color: #024572;
+  color: rgb(253, 249, 3);
+  text-align: center;
+  padding: 1em;
+  position: relative; /* Adicionado para o posicionamento absoluto do botão */
+}
+
+h1, h2 {
+  color:  rgb(253, 249, 3);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #024572;
+  color: rgb(253, 249, 3);
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#listarProdutos {
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+/* Estilo para o botão de deslogar */
+header button {
+  position: absolute;
+  top: 50%; /* Coloca o botão no meio vertical */
+  right: 20px; /* Coloca o botão 20 pixels da borda direita */
+  transform: translateY(-50%); /* Centraliza verticalmente */
+  background: none; /* Remove o fundo */
+  border: none; /* Remove a borda */
+  color: inherit; /* Usa a cor de texto padrão */
+  cursor: pointer; /* Adiciona o cursor de mão ao passar o mouse */
+  width: 120px; /* Ajusta a largura do botão */
+  height: 400px; /* Ajusta a altura do botão */
+  font-size: 25px; /* Ajusta o tamanho da fonte do texto do botão */
+}

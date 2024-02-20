@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Login</h2>
+
+  <form id="loginForm">
+    <label for="loginEmail">Email:</label>
+    <input type="email" id="loginEmail" name="loginEmail" required>
+
+    <label for="loginSenha">Senha:</label>
+    <input type="password" id="loginSenha" name="loginSenha" required>
+
+    <button type="button" onclick="fazerLogin()">Login</button>
+  </form>
+
+  <p>Não possui cadastro? <a href="../cadastrarUsuario/register.html">Clique aqui</a> para se cadastrar.</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../cadastrarUsuario/script.js"></script>
+
+</body>
+</html>
